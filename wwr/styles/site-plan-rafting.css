@@ -1,0 +1,62 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+:root {
+    --primary-color: #46ACC2;
+    --secondary-color: #8B6655;
+    --accent1-color: #FBFBFF;
+    --accent2-color: #D36135;
+  
+    --heading-font: 'DM Serif Display', serif;
+    --paragraph-font: 'Oswald', sans-serif;
+  
+    --nav-background-color: #46ACC2;
+    --nav-link-color: #8B6655;
+    --nav-hover-link-color: #FBFBFF;
+    --nav-hover-background-color: #D36135;
+  }
+
+body {
+    max-width: 960px;
+    padding: 20px;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+    font-family: var(--paragraph-font);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1,2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
