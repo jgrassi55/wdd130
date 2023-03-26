@@ -22,21 +22,18 @@
     margin: 0 auto;
 }
 
-
 h1 {
+    text-align: center;
     color: var(--primary-color);
-    position: absolute;
-    top: 0px;
-    right: 6px;
-    background-color: #000000;
-    border: #000000 solid 1px;
-    padding-left: 21rem;
-    padding-right: 21rem;
+    font-family: var(--heading-font);
+    font-size: 1.7rem;
+    margin: .5%;
 }
 
 h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    font-size: 1.7rem;
   }
 
 header {
@@ -90,6 +87,31 @@ nav a:link {
     text-decoration: none;
 }
 
+form {
+    border: none;
+    margin: 0 auto;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .7rem;
+    border: none;
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
+
+button {
+    margin: 1rem;
+    background-color: #1c6158;
+    color: #fff;
+    border: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
 article {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -128,7 +150,19 @@ article {
     display: block;
     margin: 0 auto;
 }
-section, .hist {
+
+.employees {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.employees h2 {
+    display: block;
+    margin: 0 auto;
+}
+.hist {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50px 200px;
@@ -157,8 +191,19 @@ section, .hist {
 .hist p2 {
     grid-column: 3/4;
     grid-row: 2;
-}   
-section, .adven {
+}
+
+.emp-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.emp-img img {
+    width: 250px;
+}
+
+
+.adven {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows:  50px 200px;
@@ -168,7 +213,6 @@ section, .adven {
     display: flex;
     justify-content: space-between;
     
-
 }
 .adven-img img {
     width: 100px;
@@ -182,9 +226,23 @@ section, .adven {
 
 figcaption {
     font-family: var(--paragraph-font);
-    font-size: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
 }
 
+.location h2 {
+    display: grid;
+    text-align: center;
+    margin: 0 auto;
+}
+.map {
+    display: grid;
+    grid-template-columns: 1fr 572px;
+    
+}
+.map p {
+    font-size: 1.4rem;
+}
 footer{
 display: flex;
 justify-content: space-evenly;
@@ -198,4 +256,28 @@ align-items: center;
 }
 .sociallinks img {
     height: 80px;
+}
+.form-item1 {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    align-items: center;
+    padding-right: 95px;
+}
+.form-item2 {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    align-items: center;
+    padding-right: 95px;
+}
+.form-item3 {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 150px 200px;
+    align-items: center;
+    padding-right: 145px;
+}
+.form-item5 {
+    margin: 0 auto;
 }
