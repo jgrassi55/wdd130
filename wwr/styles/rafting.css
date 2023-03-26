@@ -274,9 +274,10 @@ align-items: center;
 .form-item3 {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 150px 200px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
-    padding-right: 145px;
+    padding-left: 50px;
 }
 .form-item5 {
     margin: 0 auto;
