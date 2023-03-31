@@ -3,16 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 :root {
-    --primary-color: #46ACC2;
-    --secondary-color: #8B6655;
-    --accent1-color: #d3a2ad;
+    --primary-color: #335cb4;
+    --secondary-color: #886656;
+    --accent1-color: #d3acb4;
     --accent2-color: #D36135;
   
     --heading-font: 'DM Serif Display', serif;
     --paragraph-font: 'Oswald', sans-serif;
   
     --nav-background-color: #46ACC2;
-    --nav-link-color: #8B6655;
+    --nav-link-color: #5c5b5b;
     --nav-hover-link-color: #FBFBFF;
     --nav-hover-background-color: #D36135;
   }
