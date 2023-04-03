@@ -289,3 +289,42 @@ align-items: center;
 .form-item5 {
     margin: 0 auto;
 }
+/* Trips Page */
+
+.book p {
+    margin: 0 auto;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.contact-link {
+    display: flex;
+    justify-content: center
+    
+}
+
+.book a {
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+    
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.trips h2 {
+    display: block;
+    margin: 0 auto;
+}
+.trip-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.trip-img img {
+    width: 250px;
+}
