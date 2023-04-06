@@ -364,7 +364,7 @@ th, td {
 .full-image img {
     padding-top: 1rem;
     width: 100%;
-    height: 300px;
+    height: 200px;
     grid-column: 1;
     grid-row: 1;
     
@@ -385,4 +385,82 @@ th, td {
     font-weight: 600;
     padding-top: 3rem;
     
+}
+
+.newsletter {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 50px 50px 1fr;
+    text-align: center
+
+}
+
+.newsletter1 {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    align-items: center;
+    padding-right: 95px;
+    
+    font-size: 1.2rem;
+    grid-column: 1;
+    grid-row: 2;
+}
+.newsletter1 input {
+    height: 20px;
+    font-size: 15px;
+}
+.newsletter2 {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100px 200px;
+    align-items: center;
+    padding-right: 95px;
+    
+    font-size: 1.2rem;
+    grid-column: 1;
+    grid-row: 3;
+
+}
+.newsletter2 input {
+    height: 20px;
+    font-size: 15px;
+}
+.newsletter3 {
+    grid-column: 1;
+    grid-row: 4;
+}
+.newsletter p {
+    grid-row: 1 / 4;
+    padding-top: 45px;
+}
+.newsletter a {
+    grid-column: 2;
+    
+}
+.extra {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.extra-h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.extra-img1 {
+    display: flex
+}
+.extra-img1 img{
+    height: 250px;
+}
+
+.extra-img2 {
+    display: flex;
+    justify-content: center
+}
+.extra-img2 img{
+    height: 250px;
+    padding-left: 25px;
 }
